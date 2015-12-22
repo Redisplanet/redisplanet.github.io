@@ -36,7 +36,7 @@ bing_verify:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Russia/Moscow
 future:      true
-highlighter: rouge
+highlighter: pygments
 markdown:    kramdown
 gems:
   - jekyll-sitemap
