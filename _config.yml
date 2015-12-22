@@ -1,6 +1,6 @@
 title:            Redis Planet
 description:      You will find here interesting articles and news about Redis. One of the best an open source, nosql in-memory database, cache and message broker. 
-disqus_shortname: misterionkell
+disqus_shortname: redisplanet
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
