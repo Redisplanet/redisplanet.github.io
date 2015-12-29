@@ -1,13 +1,13 @@
 ---
 layout: post-index
-title: Latest Posts
-description: "Describe this nonsense."
-tags: [Jekyll, theme, themes, responsive, blog, modern]
+title: 
+description: "The blog about Redis - the fastest nosql database on planet."
+tags: [redis, database, nosql, blog, big data]
 comments: false
 image:
-  feature: abstract-1.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: background.jpg
+  credit: 
+  creditlink: 
 ---
 
 {% for post in paginator.posts %}
@@ -34,7 +34,12 @@ image:
     {% endif %}
   </header>
   <div class="entry-content">
-    {{ post.content }}
+{% if post.content contains '<!--more-->' %}
+  {{ post.content | split:'<!--more-->' | first %}}
+  <p><a class="btn btn-info" href="{{ post.url }}">Read more</a></p>
+{% else %}
+  {{ post.content }}
+{% endif %} 
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
