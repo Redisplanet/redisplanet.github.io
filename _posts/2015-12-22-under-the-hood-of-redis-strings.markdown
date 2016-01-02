@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Under the Hood of Redis: Strings"
-modified:
+modified: 2016-01-02T11:17:11+00:00
 categories: Redis
 description: How strings are stored in Redis. What internal structures are used strings. What types of optimization are used by Redis under a cowl.
 tags: ["nosql", "redis", "algorithms", "big data", "strings"]
 image:
-  feature:
+  feature: 
   credit:
   creditlink:
 comments:
