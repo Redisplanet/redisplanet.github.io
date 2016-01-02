@@ -31,7 +31,7 @@ background:
 google_analytics: UA-71639845-1   
 google_verify: W4Utd0NObJaAW23UjN4ceSA86fik8LF0b5rGrfmKVLs     
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify: D6289301610AAFF54EDE7CEBFCD9E3BF        
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Russia/Moscow
