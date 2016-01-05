@@ -5,7 +5,8 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url: 
+logo: logo.png
 
 # Owner/author information
 owner:
@@ -32,6 +33,9 @@ google_analytics: UA-71639845-1
 google_verify: W4Utd0NObJaAW23UjN4ceSA86fik8LF0b5rGrfmKVLs     
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify: D6289301610AAFF54EDE7CEBFCD9E3BF        
+yandex_verify: 4eaa2183a085f201
+yandex_analytics: 34543760
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Russia/Moscow
