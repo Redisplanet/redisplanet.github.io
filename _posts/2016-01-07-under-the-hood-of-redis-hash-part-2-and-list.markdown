@@ -2,7 +2,7 @@
 layout: post
 title: "Under the Hood of Redis: Hash [Part 2] & List"
 modified:
-categories: redis
+categories: Redis
 description: Hash table is a bit LIST, SET and SORTED SET in Redis. Judge for yourself - LIST is made up of ziplist/linkedlist, SET consists of dict/intset, and SORTED SET is ziplist/skiplist. We have already discussed Dictionary (dict), and in the second part of the article we consider the structure of ziplist and linkedlist.
 tags: ["nosql", "redis", "algorithms", "big data", "ziplist", "skiplist"]
 image:
@@ -18,8 +18,7 @@ In the [first part](http://redisplanet.com/redis/under-the-hood-of-redis-hash-pa
 
 The last time we ended on that saved using ziplist **1,000,000*** keys took *16 MB* of RAM, while the dict the same data required *104 mb* (**ziplist 6 times smaller**). Let's understand what the price:
 ![crazy]({{ site.url }}/images/redis/crz.jpg){: .image-center}
-<!--!more-->
-
+<!--more-->
 Ziplist
 ---
 
